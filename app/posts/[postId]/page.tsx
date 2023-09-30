@@ -49,7 +49,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
             <article>
                 <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
                 <p>
-                    <Link href="/">← Back to home</Link>
+                    <Link href="/"><button className='p-2 bg-[#e4ff36b4] text-white rounded-2xl'>← Back to home</button></Link>
                 </p>
             </article>
         </main>

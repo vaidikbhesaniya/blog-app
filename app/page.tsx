@@ -23,7 +23,7 @@ export default function Home() {
         </svg>
       </div>
             
-<div className="w-[100%] h-[50vh] z-20 bg-[#e94822] relative top-[-40px]">
+<div className="w-[100%] h-[100%] z-20 bg-[#e94822] relative top-[-40px]">
       <Posts></Posts>
       </div>
 
